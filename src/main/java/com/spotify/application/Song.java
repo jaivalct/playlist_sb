@@ -3,9 +3,7 @@ package com.spotify.application;
 public class Song {
     private String songname;
     private String songartist;
-
-    public Song() {
-    }
+    
 
     public Song(String songName, String songArtist) {
         this.songname = songName;

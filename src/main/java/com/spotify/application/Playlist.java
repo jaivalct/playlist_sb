@@ -46,10 +46,12 @@ public class Playlist {
     }
 
     public ArrayList<Song> getPlaylist() {
+
         return playlist;
     }
 
     public void addSong(Song song) {
+
         playlist.add(song);
     }
 
